@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavMenuComponent implements OnInit {
 
+   buttons = [
+              { id: "home", txt: "Home" }, 
+              { id: "about", txt: "About" },     
+              { id: "news", txt: "News" },     
+              { id: "contact", txt: "Contact Us" }
+            ]
+
   constructor() { }
 
   ngOnInit() {
